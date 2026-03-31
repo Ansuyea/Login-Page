@@ -1,38 +1,68 @@
 🐻 Beary Login App
-Aplikasi Android sederhana dengan tema lucu (bear) yang berisi halaman login dan form data diri.
+Aplikasi Android sederhana bertema bear 🧸 yang berisi halaman login dan form registrasi lengkap dengan validasi serta interaksi pengguna.
 
-📱 Fitur
-🔐 Halaman Login (Email & Password)
 
-📝 Form Data Diri
-Nama
-Email
-Password & Confirm Password
-Jenis Kelamin (Radio Button)
-Jurusan (Spinner)
-Hobi (Checkbox)
+1️⃣ Complete Form
 
-🎨 Tampilan UI dengan background custom (bg_bear)
-🔄 Navigasi antar halaman (Intent)
+Form registrasi menggunakan:
+
+a. Nama
+
+b. Email
+
+c. Password
+
+d. Confirm Password
+
+e. Menggunakan TextInputLayout untuk tampilan input yang lebih rapi
+
+
+2️⃣ Advanced Validation
+
+a. Validasi input
+
+b. Tidak boleh kosong
+
+c. Format email harus valid
+
+d. Password dan Confirm Password harus sama
+
+e. Real-time validation saat user mengisi form
+
+
+3️⃣ Selection Controls
+
+RadioGroup untuk jenis kelamin:
+
+- Laki-laki
+- Perempuan
+
+Checkbox untuk hobi:
+- Minimal pilih 3 hobi, terdapat validasi jika pilihan belum memenuhi syarat
+
+
+4️⃣ Spinner & Dialog
+- Spinner untuk memilih jurusan
+- AlertDialog muncul saat tombol submit ditekan sebagai konfirmasi data
+
+
+5️⃣ Gesture Interaction
+Implementasi Long Press pada tombol:
+Memberikan aksi tambahan saat ditekan lama
+
+
+6️⃣ GitHub Repository
+Project telah diupload ke GitHub
+
+
 🛠️ Teknologi yang Digunakan
-Kotlin
-Android Studio
-XML Layout
-Intent (untuk pindah activity)
+1. Kotlin
+2. Android Studio
+3. XML Layout
+4. Material Components (TextInputLayout)
+5. Intent & Activity Navigation
 
- 
-🚀 Cara Menjalankan Project
-1. Clone / download repository ini
-2. Buka di Android Studio
-3. Tunggu proses Gradle selesai
-4. Klik Run
-5. Aplikasi akan langsung berjalan di emulator / 📱 
+
 
 👩‍💻 Author
 Anisa Ansuya Henna
-
-✨ Deskripsi Singkat
-Project ini dibuat untuk latihan membuat:
-UI Android
-Form input
-Navigasi antar halaman
