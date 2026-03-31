@@ -4,7 +4,9 @@ Aplikasi Android sederhana bertema bear 🧸 yang berisi halaman login dan form 
 ![alt text](Login.jpeg?raw=true)
 
 1️⃣ Complete Form
-![alt text](Form.Data?jpeg?raw=true)
+
+![alt text](FormData.jpeg?raw=true)
+
 Form registrasi menggunakan:
 
 a. Nama
