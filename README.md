@@ -20,20 +20,6 @@ Android Studio
 XML Layout
 Intent (untuk pindah activity)
 
-📂 Struktur Project
-app/
- ├── java/com.example.pageloginconfirmation/
- │    ├── MainActivity.kt
- │    └── FormActivity.kt
- │
- ├── res/
- │    ├── layout/
- │    │    ├── activity_main.xml
- │    │    └── activity_form.xml
- │    ├── drawable/
- │    │    └── bg_bear
- │
- └── AndroidManifest.xml
  
 🚀 Cara Menjalankan Project
 1. Clone / download repository ini
