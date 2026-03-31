@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_bear">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Form Data Diri"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textColor="#6D4C41"
+            android:layout_marginBottom="20dp"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"/>
+
+        <!-- NAMA -->
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:textColor="#4E342E"
+            android:background="#FFFFFF"/>
+
+        <!-- EMAIL -->
+        <EditText
+            android:id="@+id/email2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:textColor="#4E342E"
+            android:textColorHint="#A1887F"
+            android:background="#FFFFFF"/>
+
+        <!-- PASSWORD -->
+        <EditText
+            android:id="@+id/password2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:textColor="#4E342E"
+            android:textColorHint= "#A1887F"
+            android:background="#FFFFFF"/>
+
+        <!-- CONFIRM PASSWORD -->
+        <EditText
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:textColor="#4E342E"
+            android:textColorHint="#A1887F"
+            android:background="#FFFFFF"/>
+
+        <!-- GENDER -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#6D4C41"
+            android:layout_marginTop="15dp"/>
+
+        <RadioGroup
+            android:id="@+id/genderGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/laki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laki-laki"
+                android:textStyle="bold"
+                android:textColor="#4E342E"/>
+
+            <RadioButton
+                android:id="@+id/perempuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perempuan"
+                android:textStyle="bold"
+                android:textColor="#4E342E"/>
+        </RadioGroup>
+
+        <!-- JURUSAN -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jurusan"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#6D4C41"
+            android:layout_marginTop="15dp"/>
+
+        <Spinner
+            android:id="@+id/jurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- HOBI -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobi"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#6D4C41"
+            android:layout_marginTop="15dp"/>
+
+        <!-- CHECKBOX -->
+        <CheckBox
+            android:id="@+id/cbNyemil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nyemil"
+            android:textColor="#4E342E"/>
+
+        <CheckBox
+            android:id="@+id/cbTidur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tidur"
+            android:textColor="#4E342E"/>
+
+        <CheckBox
+            android:id="@+id/cbNgoding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngoding"
+            android:textColor="#4E342E"/>
+
+        <CheckBox
+            android:id="@+id/cbBacaBuku"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baca Buku"
+            android:textColor="#4E342E"/>
+
+        <CheckBox
+            android:id="@+id/cbAdalahPokoknya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adalah Pokoknya"
+            android:textColor="#4E342E"/>
+
+        <CheckBox
+            android:id="@+id/cbBacaJurnal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baca Jurnal"
+            android:textColor="#4E342E"/>
+
+        <CheckBox
+            android:id="@+id/cbMainGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main Game"
+            android:textColor="#4E342E"/>
+
+        <!-- BUTTON -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#F48FB1"/>
+
+    </LinearLayout>
+</ScrollView>
