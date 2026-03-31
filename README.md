@@ -1,6 +1,7 @@
 🐻 Beary Login App
 Aplikasi Android sederhana bertema bear 🧸 yang berisi halaman login dan form registrasi lengkap dengan validasi serta interaksi pengguna.
 
+![alt text](?raw=true)
 
 1️⃣ Complete Form
 
